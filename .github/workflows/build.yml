@@ -12,5 +12,4 @@ jobs:
           echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /home/runner/.bash_profile
           echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/runner/.bash_profile
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          brew tap homebrew/cask-fonts
-          brew tap
+          brew tap linuxbrew/fonts
