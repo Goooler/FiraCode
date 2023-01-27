@@ -13,3 +13,5 @@ jobs:
           echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/runner/.bash_profile
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           brew tap linuxbrew/fonts
+          brew install font-inconsolata
+          brew install font-hack-nerd-font
